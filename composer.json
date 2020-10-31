@@ -36,13 +36,13 @@
         "composer-plugin-api": "^2.0"
     },
     "require-dev":{
-        "phpunit/phpunit":"*",
-        "phpunit/phpunit-mock-objects": "dev-master",
+        "phpunit/phpunit-mock-objects": "^3.2",
         "squizlabs/php_codesniffer": "1.4.7",
         "firegento/phpcs": "*",
         "composer/composer":"*@dev",
         "symfony/process":"*",
-        "mikey179/vfsstream": "^1.6"
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "^5.0"
     },
     "replace": {
         "magento-hackathon/magento-composer-installer": "*"
